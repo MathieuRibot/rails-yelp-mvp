@@ -1,3 +1,113 @@
 // Place all the styles related to the restaurants controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header-logo {
+  width: 15%;
+  height: 15%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.header h1 {
+  font-size: 3em;
+}
+.header-2 h2 {
+  font-size: 0.9em;
+}
+.header-2 i {
+  color: #EA002E;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.list li {
+  padding: 6px;
+}
+
+.list i {
+  color: #EA002E;
+  opacity: 0.9;
+}
+
+i span {
+  padding-left: 8px;
+  font-weight: normal;
+  color: rgb(20, 20, 20);
+}
+
+i span:hover {
+  color: #EA002E;
+}
+
+.restaurant-informations {
+  padding: 8px;
+}
+
+.restaurant-reviews {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.restaurant-reviews .fas {
+  color: #EA002E;
+  margin-bottom: 20px;
+}
+
+.restaurant-reviews .fas:hover {
+  opacity: 0.8;
+}
+
+.restaurant-reviews .fas span {
+  color: rgb(20, 20, 20);
+}
+
+.restaurant-reviews .fas:hover span {
+  opacity: 0.8;
+}
+
+.review-content {
+  font-size : 0.9em;
+  padding-bottom: -2px;
+}
+
+.review-rating {
+  font-size : 0.8em;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-eye {
+  color: black;
+}
+
+.fa-eye:hover {
+  color: black;
+  opacity: 0.7;
+}

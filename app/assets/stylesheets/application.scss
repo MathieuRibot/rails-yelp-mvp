@@ -13,3 +13,18 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+@import "restaurants";
+
+.btn {
+  background-color: #EA002E;
+}
+
+.btn:hover {
+  background-color: #EA002E;
+  opacity: 0.8;
+}
+
+ul {
+  list-style-type: none;
+}
