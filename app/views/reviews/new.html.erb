@@ -1,0 +1,6 @@
+<h1>Add a new Review for <%= @restaurant.name %></h1>
+
+<%= render 'form', review: @review %>
+
+<%= link_to @restaurant.name, restaurant_path(@restaurant) %>
+<%= link_to 'Back to Restaurants List', restaurants_path %>
